@@ -1,5 +1,12 @@
+package activity2;
 import java.util.Scanner;
 
+/**
+ * Driver class for CSC205 Activity 2
+ * 
+ * @author Wade Huber
+ *
+ */
 public class Activity2 {
 
 	public static void main(String[] args) {
