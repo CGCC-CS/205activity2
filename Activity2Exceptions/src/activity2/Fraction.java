@@ -73,9 +73,9 @@ public class Fraction {
 		ret += numerator /  denominator;
 		ret += " ";
 		if (remainder != 0) {
-			ret += numerator %  denominator;
+			ret += Math.abs(numerator %  denominator);
 			ret += "/";
-			ret += denominator;
+			ret += Math.abs(denominator);
 		}
 		
 		return ret;
